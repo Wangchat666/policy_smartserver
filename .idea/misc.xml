@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="NLP" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="NLP" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="pytorch" project-jdk-type="Python SDK" />
 </project>
