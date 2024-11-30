@@ -1,8 +1,8 @@
 mysql:
   addr: "localhost:3306"  # mysql地址
-  password: "lx347255"    # mysql密码
+  password: "Whb20040918@#"    # mysql密码
   user: "root"         # mysql用户名
-  dbname: "data"    # mysql数据库名
+  dbname: "policy_search"    # mysql数据库名
 http:
   pre-search-url: "http://127.0.0.1:5000/api/search?message="
   doc-summary-url: "http://127.0.0.1:5000/api/summary"
