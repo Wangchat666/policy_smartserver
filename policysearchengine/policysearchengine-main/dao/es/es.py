@@ -155,7 +155,7 @@ class ESDocument:
 #     )
 #     return es
 def init(config_path:str):
-    with open(config_path, 'r') as file:
+    with open(config_path, 'r',encoding='utf-8') as file:
         config = yaml.safe_load(file)  # 读取 YAML 文件并解析为字典
 
     es_address = config['es']['addr']  # 获取 Elasticsearch 地址
