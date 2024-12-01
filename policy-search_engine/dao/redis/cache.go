@@ -1,9 +1,9 @@
 package redis
 
 import (
-	"PolicySearchEngine/config"
 	"github.com/gocolly/colly"
 	"hash/fnv"
+	"policy-search_engine/config"
 	"time"
 )
 

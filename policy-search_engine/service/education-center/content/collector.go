@@ -1,11 +1,11 @@
 package content
 
 import (
-	"PolicySearchEngine/dao/es"
-	"PolicySearchEngine/service"
-	"PolicySearchEngine/utils"
 	"fmt"
 	"github.com/gocolly/colly"
+	"policy-search_engine/dao/es"
+	"policy-search_engine/service"
+	"policy-search_engine/utils"
 	"regexp"
 	"strings"
 )
@@ -31,9 +31,9 @@ func (s *EducationContentColly) updateContent(e *colly.HTMLElement) {
 		}
 		text = append(text, []byte(child.Text)...)
 	})
-	s.contentDal.InsertContent(e.Request.URL.String(), string(text))//将提取的文本内容插入到数据库中，使用当前请求的 URL 作为标识。
+	s.contentDal.InsertContent(e.Request.URL.String(), string(text)) //将提取的文本内容插入到数据库中，使用当前请求的 URL 作为标识。
 
-	meta := s.metaDal.GetMetaByUrl(e.Request.URL.String())//尝试从数据库中获取与当前 URL 对应的元数据
+	meta := s.metaDal.GetMetaByUrl(e.Request.URL.String()) //尝试从数据库中获取与当前 URL 对应的元数据
 	if meta == nil {
 		meta = s.metaDal.GetMetaByUrl(e.Request.Headers.Get("Referer"))
 	}

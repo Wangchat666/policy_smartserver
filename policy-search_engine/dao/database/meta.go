@@ -1,10 +1,10 @@
 package database
 
 import (
-	"PolicySearchEngine/model"
 	"fmt"
 	"gorm.io/gorm"
 	"log"
+	"policy-search_engine/model"
 	"time"
 )
 

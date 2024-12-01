@@ -1,12 +1,12 @@
 package main
 
 import (
-	"PolicySearchEngine/config"
-	"PolicySearchEngine/dao/database"
-	"PolicySearchEngine/dao/es"
-	"PolicySearchEngine/http"
-	"PolicySearchEngine/service"
-	science_liaoning "PolicySearchEngine/service/liaoning/science-liaoning"
+	"policy-search_engine/config"
+	"policy-search_engine/dao/database"
+	"policy-search_engine/dao/es"
+	"policy-search_engine/http"
+	"policy-search_engine/service"
+	science_liaoning "policy-search_engine/service/liaoning/science-liaoning"
 )
 
 func main() {

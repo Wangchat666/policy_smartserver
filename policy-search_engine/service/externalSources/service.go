@@ -1,9 +1,9 @@
 package externalSources
 
 import (
-	"PolicySearchEngine/service"
-	"PolicySearchEngine/service/externalSources/content"
-	"PolicySearchEngine/service/externalSources/meta"
+	"policy-search_engine/service"
+	"policy-search_engine/service/externalSources/content"
+	"policy-search_engine/service/externalSources/meta"
 )
 
 const name = "external-sources" // 国务院

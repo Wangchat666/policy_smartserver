@@ -1,10 +1,10 @@
 package content
 
 import (
-	"PolicySearchEngine/dao/database"
-	"PolicySearchEngine/model"
-	"PolicySearchEngine/service"
 	"fmt"
+	"policy-search_engine/dao/database"
+	"policy-search_engine/model"
+	"policy-search_engine/service"
 )
 
 const (

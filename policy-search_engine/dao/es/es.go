@@ -1,12 +1,12 @@
 package es
 
 import (
-	"PolicySearchEngine/config"
-	"PolicySearchEngine/model"
 	"bytes"
 	"encoding/json"
 	"fmt"
 	"github.com/elastic/go-elasticsearch/v8"
+	"policy-search_engine/config"
+	"policy-search_engine/model"
 	"strings"
 	"time"
 )

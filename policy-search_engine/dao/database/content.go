@@ -1,10 +1,10 @@
 package database
 
 import (
-	"PolicySearchEngine/model"
 	"errors"
 	"fmt"
 	"gorm.io/gorm"
+	"policy-search_engine/model"
 	"strings"
 )
 

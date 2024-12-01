@@ -1,11 +1,11 @@
 package content
 
 import (
-	"PolicySearchEngine/dao/es"
-	"PolicySearchEngine/service"
-	"PolicySearchEngine/utils"
 	"fmt"
 	"github.com/gocolly/colly"
+	"policy-search_engine/dao/es"
+	"policy-search_engine/service"
+	"policy-search_engine/utils"
 	"regexp"
 	"strings"
 )

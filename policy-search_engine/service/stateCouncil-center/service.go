@@ -1,9 +1,9 @@
 package stateCouncil_center
 
 import (
-	"PolicySearchEngine/service"
-	"PolicySearchEngine/service/stateCouncil-center/content"
-	"PolicySearchEngine/service/stateCouncil-center/meta"
+	"policy-search_engine/service"
+	"policy-search_engine/service/stateCouncil-center/content"
+	"policy-search_engine/service/stateCouncil-center/meta"
 )
 
 const name = "stateCouncil-center" // 国务院

@@ -1,4 +1,4 @@
-# PolicySearchEngine 
+# policy-search_engine 
 
 政汇搜索引擎 ——旨在开发一个全面爬取政策文件并提供搜索引擎服务的工具。
 

@@ -1,9 +1,9 @@
 package science_liaoning
 
 import (
-	"PolicySearchEngine/service"
-	"PolicySearchEngine/service/liaoning/science-liaoning/content"
-	"PolicySearchEngine/service/liaoning/science-liaoning/meta"
+	"policy-search_engine/service"
+	"policy-search_engine/service/liaoning/science-liaoning/content"
+	"policy-search_engine/service/liaoning/science-liaoning/meta"
 )
 
 const name = "science-liaoning" // 辽宁科技部

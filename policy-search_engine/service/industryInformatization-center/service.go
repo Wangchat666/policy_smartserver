@@ -1,9 +1,9 @@
 package industryInformatization_center
 
 import (
-	"PolicySearchEngine/service"
-	"PolicySearchEngine/service/industryInformatization-center/content"
-	"PolicySearchEngine/service/industryInformatization-center/meta"
+	"policy-search_engine/service"
+	"policy-search_engine/service/industryInformatization-center/content"
+	"policy-search_engine/service/industryInformatization-center/meta"
 )
 
 const name = "industryInformatization-center" // 中央工信部

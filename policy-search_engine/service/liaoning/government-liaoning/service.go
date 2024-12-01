@@ -1,9 +1,9 @@
 package government_liaoning
 
 import (
-	"PolicySearchEngine/service"
-	"PolicySearchEngine/service/liaoning/government-liaoning/content"
-	"PolicySearchEngine/service/liaoning/government-liaoning/meta"
+	"policy-search_engine/service"
+	"policy-search_engine/service/liaoning/government-liaoning/content"
+	"policy-search_engine/service/liaoning/government-liaoning/meta"
 )
 
 const name = "government-liaoning" // 辽宁省政策

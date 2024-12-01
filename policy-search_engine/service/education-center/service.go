@@ -1,9 +1,9 @@
 package education_center
 
 import (
-	"PolicySearchEngine/service"
-	"PolicySearchEngine/service/education-center/content"
-	"PolicySearchEngine/service/education-center/meta"
+	"policy-search_engine/service"
+	"policy-search_engine/service/education-center/content"
+	"policy-search_engine/service/education-center/meta"
 )
 
 const name = "education-center" // 中央教育部

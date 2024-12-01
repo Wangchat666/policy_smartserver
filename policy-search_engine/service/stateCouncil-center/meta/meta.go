@@ -1,14 +1,14 @@
 package meta
 
 import (
-	"PolicySearchEngine/dao/database"
-	"PolicySearchEngine/service"
-	"PolicySearchEngine/utils"
 	"encoding/json"
 	"fmt"
 	"github.com/gocolly/colly"
 	"io/ioutil"
 	"net/http"
+	"policy-search_engine/dao/database"
+	"policy-search_engine/service"
+	"policy-search_engine/utils"
 	"strconv"
 	"strings"
 )

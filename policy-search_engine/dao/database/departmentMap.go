@@ -1,10 +1,10 @@
 package database
 
 import (
-	"PolicySearchEngine/model"
 	"fmt"
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
+	"policy-search_engine/model"
 )
 
 type SmallDepartmentMapDal struct{ Db *gorm.DB }

@@ -1,13 +1,13 @@
 package database
 
 import (
-	"PolicySearchEngine/config"
-	"PolicySearchEngine/model"
 	mysqlCfg "github.com/go-sql-driver/mysql"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"log"
+	"policy-search_engine/config"
+	"policy-search_engine/model"
 	"time"
 )
 

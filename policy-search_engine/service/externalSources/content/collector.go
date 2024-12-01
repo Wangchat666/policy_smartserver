@@ -1,10 +1,10 @@
 package content
 
 import (
-	"PolicySearchEngine/service"
-	"PolicySearchEngine/utils"
 	"fmt"
 	"github.com/gocolly/colly"
+	"policy-search_engine/service"
+	"policy-search_engine/utils"
 	"regexp"
 	"strings"
 )

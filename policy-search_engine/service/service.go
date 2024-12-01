@@ -1,9 +1,9 @@
 package service
 
 import (
-	"PolicySearchEngine/config"
 	"fmt"
 	"github.com/robfig/cron/v3"
+	"policy-search_engine/config"
 	"time"
 )
 

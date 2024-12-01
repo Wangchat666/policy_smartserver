@@ -1,9 +1,9 @@
 package science_tianjin1
 
 import (
-	"PolicySearchEngine/service"
-	"PolicySearchEngine/service/tianjin/science-tianjin1/content"
-	"PolicySearchEngine/service/tianjin/science-tianjin1/meta"
+	"policy-search_engine/service"
+	"policy-search_engine/service/tianjin/science-tianjin1/content"
+	"policy-search_engine/service/tianjin/science-tianjin1/meta"
 )
 
 const name = "science-tianjin" // 辽宁科技部

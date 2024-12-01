@@ -1,9 +1,6 @@
 package http
 
 import (
-	"PolicySearchEngine/config"
-	"PolicySearchEngine/dao/database"
-	"PolicySearchEngine/dao/es"
 	"bytes"
 	"encoding/json"
 	"fmt"
@@ -11,6 +8,9 @@ import (
 	"io"
 	"net/http"
 	"net/url"
+	"policy-search_engine/config"
+	"policy-search_engine/dao/database"
+	"policy-search_engine/dao/es"
 	"strconv"
 	"strings"
 )
