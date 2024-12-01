@@ -1,0 +1,7 @@
+
+主要是元数据和内容两张表，元数据中的title其实是不太准的，但是标题其实算在元数据里比较好，标题的设计方案如下：
+1. 先写入Meta表
+2. 写入content时同步将contentID写入到meta中，并更新title
+3. Meta表中存在contentID，证明已经是正确的标题了
+
+因为Meta表和content表是分开更新的，所以本身就会存在有meta数据，但是没有content数据的情况，肯定是要标识区分的，直接用contentID区分可以说一举两得，title问题也同时解决了

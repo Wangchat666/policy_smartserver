@@ -1,0 +1,134 @@
+.search-container {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.search-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1; /* 将搜索框的宽度设置为剩余空间的100% */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px; /* 设置右侧外边距 */
+}
+
+.search-button {
+  flex: 0 0 auto; /* 防止按钮被拉伸 */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.search-results {
+  list-style-type: none;
+  padding: 0;
+}
+
+.search-result {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.result-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.result-title:hover {
+  text-decoration: underline;
+}
+
+.result-date {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.result-content {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.highlight {
+  background-color: yellow; /* 修改关键字高亮颜色 */
+}
+
+.search-select {
+  flex: 0 0 auto; /* 防止多选框被拉伸 */
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px; /* 设置下方外边距 */
+}
+
+.search-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.result-source-tag {
+  font-size: 0.8em; /* 调整字体大小 */
+  color: #999; /* 设置灰色字体颜色 */
+  display: flex;
+  align-items: center;
+  gap: 0.5em; /* 控制省份与部门之间的间距 */
+}
+
+.result-province,
+.result-department {
+  background-color: #eee; /* 设置背景色 */
+  padding: 0.2em 0.5em; /* 边距内填充 */
+  border-radius: 0.25em; /* 圆角 */
+  margin-right: 0.25em; /* 右侧间距 */
+  white-space: nowrap; /* 防止换行 */
+}
+
+.search-result {
+  position: relative;
+  border: 1px solid #ccc; /* 为搜索结果容器添加边框 */
+  padding: 10px; /* 为搜索结果容器添加内边距 */
+  margin-bottom: 20px; /* 设置搜索结果容器之间的垂直间距 */
+}
+
+.generate-summary-button {
+  position: absolute;
+  top: 5px; /* 距离搜索结果容器顶部的距离 */
+  right: 5px; /* 距离搜索结果容器右侧的距离 */
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.generate-summary-button:hover {
+  background-color: #40a9ff;
+}
+
+.ant-modal-body {
+  overflow-y: auto; /* 设置内容过多时可滚动 */
+  max-height: 300px; /* 设置最大高度 */
+}

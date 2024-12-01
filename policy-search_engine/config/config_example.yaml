@@ -1,0 +1,22 @@
+mysql:
+  addr: ""  # mysql地址
+  password: ""    # mysql密码
+  user: ""         # mysql用户名
+  dbname: ""      # mysql数据库名
+redis:
+  addr: "localhost:6379" # redis地址
+  password: "password" # redis密码
+  db: 0             # redis数据库
+http:
+  pre-search-url: "http://127.0.0.1:5000/api/search?message=" # 预处理地址
+  doc-summary-url: "http://127.0.0.1:5000/api/summary" # 摘要地址
+  api-key: ""
+es:
+  addr: "http://localhost:9200"
+  index: "policy_search_engine"
+cron: # 定时运行时间
+  science-center: "00 10 * * *"  # 中央科技部
+  education-center: "00 11 * * *"  # 中央教育部
+  industryInformatization-center: "00 12 * * *"  # 中央工信部
+  stateCouncil-center: "00 13 * * *"  # 中央国务院
+  external-sources: "00 14 * * *"  # 外部数据源
